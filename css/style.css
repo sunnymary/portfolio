@@ -47,7 +47,6 @@ hr {
 }
 
 #big-image {
-    height: 95vh;
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("../img/cover_test.jpg");
     background-color: black;
@@ -72,24 +71,38 @@ hr {
     text-shadow: 1px 1px 3px black;
 }
 
-#big-image p {
-    text-align: left;
+.title {
+    font-size: 66px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.introduction {
+    font-size: 23px;
+    text-align: center;
     margin: 20px 0;
 }
 
-.title {
-    font-size: 60px;
+.btn-big-image {
+    background-color: #3fa7ff;
+    text-transform: uppercase;
+    display: block;
+    margin: 60px auto;
+    font-size: 1em;
+    padding: 10px 20px;
     font-weight: bold;
 }
 
-.btn-big-image {
-   background-color: #3fa7ff;
-   text-transform: uppercase;
+.btn-big-image:hover,
+.btn-big-image:focus {
+    color: #2d3c49;
 }
 
 .link-to-contact {
     color:white;
 }
+
 
 .expertise-icon {
     display: block;
@@ -150,11 +163,11 @@ hr {
 }
 
 .project-border-code {
-    height:550px;
+    min-height: 600px;
 }
 
 .project-border-design {
-    height:400px;
+    min-height:500px;
 }
 
 .project-pic {
