@@ -2,7 +2,7 @@
    outline: 1px solid red !important;
 }*/
 
-/*color scheme #3fa7ff  #2d3c49 */
+/*color scheme #3fa7ff  2d3#c49 */
 
 * {
     -webkit-box-sizing: border-box;
@@ -33,17 +33,35 @@ hr {
     background: white;
 }
 
-.logo {
-
+.navbar-brand {
+    display: flex;
 }
 
-.navbar-nav>li>a {
+.logo {
+    margin-top: -10px;
+    margin-right: 5px;
+    height: 45px;
+    width: 45px;
+}
+
+.brand {
+    color: #2d3c49;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
     color: #2d3c49;
     font-size: 16px;
 }
 
-.navbar-nav>li>a:hover {
-    color:#7d97ad;
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:#3fa7ff;
 }
 
 #big-image {
@@ -402,7 +420,6 @@ hr {
     color: #e47297;
 }
 
-.green {
-    color:#9ccf31;
+.yellow {
+    color: #f0c83e;
 }
-
