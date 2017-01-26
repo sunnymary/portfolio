@@ -5,13 +5,15 @@
 	 height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
 <g id="Layer_2">
 	<rect fill="#FFFFFF" width="200" height="200"/>
+	<polyline fill="none" points="0,200 200,0 0,0 200,200 	"/>
 </g>
 <g id="Layer_1">
-	<circle fill="#F0C83E" cx="100" cy="100" r="72.667"/>
+	<circle fill="#2D3C49" cx="100" cy="100" r="72.667"/>
 	<g>
 		
 			<circle fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.9883,19.7662" cx="100" cy="100" r="72.667"/>
 	</g>
-	<circle fill="#3FA7FF" stroke="#2D3C49" stroke-width="14" stroke-miterlimit="10" cx="100" cy="100.001" r="47.444"/>
+	<circle fill="#E47297" stroke="#3FA7FF" stroke-width="12" stroke-miterlimit="10" cx="100" cy="100.001" r="47.444"/>
+	<circle fill="#F0C83E" stroke="#F0C83E" stroke-width="4" stroke-miterlimit="10" cx="100" cy="100" r="26.444"/>
 </g>
 </svg>
