@@ -94,7 +94,7 @@ hr {
 #big-image .content-box {
     padding-top: 200px;
     color: white;
-    text-align: left;
+    text-align: center;
     text-shadow: 1px 1px 3px black;
 }
 
@@ -102,41 +102,29 @@ hr {
     font-size: 66px;
     font-weight: bold;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .introduction {
     font-size: 23px;
-    text-align: center;
     margin: 20px 0;
 }
 
 .btn-big-image {
     background-color: #3fa7ff;
     text-transform: uppercase;
-    display: block;
+    display: inline-block;
     margin: 60px auto;
     font-size: 0.9em;
     padding: 10px 20px;
     font-weight: bold;
+    color: white;
+    text-shadow: none;
 }
 
 .btn-big-image:hover,
 .btn-big-image:focus {
-    color: #2d3c49;
     transform: scale(1.05);
 }
-
-.link-to-contact {
-    color:white;
-}
-
-.link-to-contact:hover,
-.link-to-contact:focus {
-    color: #2d3c49;
-    text-decoration: none;
-}
-
 
 .expertise-icon {
     display: block;
@@ -360,7 +348,7 @@ hr {
     background-color: #3fa7ff;
     color:white;
     font-weight: 700;
-    text-size: 1.2em;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
@@ -437,12 +425,9 @@ hr {
         font-size: 20px;
     }
 
-    .link-to-contact {
-        font-size: 0.8em;
-    }
-
     .btn-big-image {
         margin: 40px auto 30px auto;
+        font-size: 0.8em;
     }
 
     #expertise .content-box,
@@ -532,7 +517,7 @@ hr {
 
 /*color class*/
 
-/*background*/
+/*background scheme*/
 .gray-background {
     background-color:#f1f2f2;
 }
@@ -546,7 +531,7 @@ hr {
     color: white;
 }
 
-/*text color*/
+/*text color scheme*/
 .blue {
     color:#3fa7ff;
 }
