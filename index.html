@@ -33,10 +33,22 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#top">Home</a></li>
-                            <li><a href="#expertise">Skills</a></li>
-                            <li><a href="#featured-work">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li>
+                                <a href="#top" class="hidden-xs">Home</a>
+                                <a href="#top" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Home</a>
+                            </li>
+                            <li>
+                                <a href="#expertise" class="hidden-xs">Skills</a>
+                                <a href="#expertise" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#featured-work" class="hidden-xs">Projects</a>
+                                <a href="#featured-work" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="hidden-xs">Contact</a>
+                                <a href="#contact" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contact</a>
+                            </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -88,7 +100,7 @@
                                     <p>Course Project for Udacity Front End Web Developer Nanodegree. Build a online resume, using Javascript to build resume data and compile into a HTML Template. </p>
                                     <div class="project-link">
                                         <a href="#" class="btn btn-solid" role="button">Visit Page</a>
-                                        <a href="https://github.com/sunnymary/frontend-nanodegree-resume" class="btn btn-hollow" role="button">View Source Code <i class="fa fa-github btn-github" aria-hidden="true"></i></a>
+                                        <a href="https://github.com/sunnymary/frontend-nanodegree-resume" class="btn btn-hollow" role="button" target="_blank">View Source Code <i class="fa fa-github btn-github" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +114,7 @@
                                     <p>Build my personal webpage to show projects. This project apply the concept of sematic HTML, responsive website design and grid-based webpage layout.</p>
                                     <div class="project-link">
                                         <a href="#" class="btn btn-solid" role="button">Visit Page</a>
-                                        <a href="https://github.com/sunnymary/portfolio-site" class="btn btn-hollow" role="button">View Source Code <i class="fa fa-github btn-github" aria-hidden="true"></i></a>
+                                        <a href="https://github.com/sunnymary/portfolio-site" class="btn btn-hollow" role="button" target="_blank">View Source Code <i class="fa fa-github btn-github" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -220,6 +232,5 @@
                 <p class="trademark">©2017 Designed and Developed by <span class="trademark-name">Miaoyun Zhou</span></p>
             </div><!-- /.content-box -->
         </footer>
-    <script src="js/script.js"></script>
     </body>
 </html>

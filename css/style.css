@@ -17,13 +17,9 @@ body {
     color: #2d3c49;
 }
 
-body * {
+a,
+.btn {
     transition: all 0.2s ease;
-}
-
-hr {
-    border-bottom: 2px solid #7d97ad;
-    margin-top: 10px;
 }
 
 .container-fluid {
@@ -57,12 +53,10 @@ hr {
     margin-top: 3px;
 }
 
-
 .navbar-default .navbar-nav>li>a {
     color: #2d3c49;
     font-size: 16px;
 }
-
 
 .navbar-default .navbar-nav>li>a:hover {
     color:#3fa7ff;
@@ -78,7 +72,6 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-/*    background-attachment: fixed;*/
     margin-top: -20px;
 }
 
@@ -119,8 +112,7 @@ hr {
     text-shadow: none;
 }
 
-.btn-big-image:hover,
-.btn-big-image:focus {
+.btn-big-image:hover {
     transform: scale(1.05);
 }
 
@@ -221,7 +213,6 @@ hr {
     bottom: 30px;
 }
 
-
 .btn-solid {
     border: 1px solid #3fa7ff;
     background-color: #3fa7ff;
@@ -229,13 +220,16 @@ hr {
     text-transform: uppercase;
 }
 
-.btn-solid:hover,
-.btn-solid:focus {
+.btn-solid:hover {
     border: 1px solid #2d3c49;
     background-color: #2d3c49;
     color: white;
     transform: scale(1.05);
     margin-right: 5px;
+}
+
+.btn-solid:focus {
+    color: white;
 }
 
 .btn-hollow {
@@ -246,13 +240,16 @@ hr {
     text-transform: uppercase;
 }
 
-.btn-hollow:hover,
-.btn-hollow:focus {
+.btn-hollow:hover {
     border: 1px solid #2d3c49;
     background-color: #2d3c49;
     color: white;
     transform: scale(1.05);
     margin-left: 5px;
+}
+
+.btn-hollow:focus {
+    color: #3fa7ff;
 }
 
 .btn-github {
@@ -294,14 +291,20 @@ hr {
     margin-bottom: 20px;
 }
 
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
 .contact-flex {
     display: -webkit-flex;
     display: flex;
     margin-left: 5px;
+    align-items: center;
 }
 
 .icon-holder {
-    width: 25%;
+    width: 22%;
 }
 
 .contact-fa {
@@ -314,16 +317,23 @@ hr {
     border-radius: 30px;
     padding-top: 12px;
     margin-right: 10px;
+    transition: all 0.2s ease;
 }
 
-.contact-fa:hover,
-.contact-fa:focus {
+.contact-fa:hover {
     background-color: #2d3c49;
 }
 
 .link-description {
     color: #2d3c49;
-    width: 75%;
+    width: 78%;
+    transition: all 0.2s ease;
+    margin-bottom: 0;
+}
+
+.link-description:hover {
+    color: #2d3c49;
+    text-decoration: underline;
 }
 
 .contact-form {
@@ -351,7 +361,7 @@ hr {
     background-color: #3fa7ff;
     color: white;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.9em;
     text-transform: uppercase;
 }
 
@@ -387,8 +397,7 @@ hr {
     color: white;
 }
 
-#footer-info a:hover,
-#footer-info a:focus {
+#footer-info a:hover {
     color: #888;
 }
 
@@ -461,12 +470,20 @@ hr {
     }
 
     .contact-group {
-        top: -50px;
-        text-align: center;
-        padding-left: 5px;
+        padding-left: 20px;
+    }
+
+    .icon-holder {
+        width: 80px;
     }
 
     .trademark-name {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .email-vendor {
         display: block;
     }
 }
