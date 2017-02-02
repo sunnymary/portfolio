@@ -78,7 +78,7 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
     margin-top: -20px;
 }
 
@@ -294,13 +294,14 @@ hr {
     margin-bottom: 20px;
 }
 
-.link-description {
-    color: #2d3c49;
+.contact-flex {
+    display: -webkit-flex;
+    display: flex;
+    margin-left: 5px;
 }
 
-.link-description:hover,
-.link-description:focus {
-    text-decoration: underline;
+.icon-holder {
+    width: 25%;
 }
 
 .contact-fa {
@@ -318,6 +319,11 @@ hr {
 .contact-fa:hover,
 .contact-fa:focus {
     background-color: #2d3c49;
+}
+
+.link-description {
+    color: #2d3c49;
+    width: 75%;
 }
 
 .contact-form {
@@ -355,11 +361,6 @@ hr {
     background-color: #2d3c49;
     color: white;
     transform: scale(1.05);
-}
-
-.email {
-    color: #e47297;
-    text-decoration: underline;
 }
 
 #footer-info {
@@ -463,15 +464,6 @@ hr {
         top: -50px;
         text-align: center;
         padding-left: 5px;
-    }
-
-    .contact-list {
-        display: inline;
-        margin: 5px;
-    }
-
-    .link-description {
-        display: none;
     }
 
     .trademark-name {
