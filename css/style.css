@@ -1,4 +1,4 @@
-/* {
+/** {
    outline: 1px solid red !important;
 }*/
 
@@ -22,7 +22,7 @@ a,
     transition: all 0.2s ease;
 }
 
-.container-fluid {
+nav .container-fluid {
     max-width: 1200px;
     padding-right: 45px;
     padding-left: 30px;
@@ -75,14 +75,7 @@ a,
     margin-top: -20px;
 }
 
-.content-box {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 30px 30px;
-}
-
-#big-image .content-box {
+#big-image .container-fluid {
     padding-top: 200px;
     color: white;
     text-align: center;
@@ -116,6 +109,18 @@ a,
     transform: scale(1.05);
 }
 
+.container {
+    max-width: 1200px;
+    padding: 30px 30px;
+}
+
+.subtitle {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
 .expertise-icon {
     display: block;
     text-align: center;
@@ -139,31 +144,6 @@ a,
     font-size: 0.9em;
 }
 
-.name {
-    text-transform: uppercase;
-    font-weight: 300;
-    text-align: right;
-    font-size: 45px;
-    margin-top: 5px;
-}
-
-.name-title {
-    text-transform: uppercase;
-    text-align: right;
-}
-
-.project-show-pic {
-    width: 100%;
-    margin-top: -30px;
-}
-
-.subtitle {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
 .card-code,
 .card-design {
     display: block;
@@ -181,6 +161,24 @@ a,
 
 .card-design {
     min-height: 530px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+.name-title {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.project-show-pic {
+    width: 100%;
+    margin-top: -30px;
 }
 
 .project-pic {
@@ -419,8 +417,14 @@ a:focus {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 767px) {
-    #big-image .content-box {
+    #big-image .container-fluid {
         padding-top: 150px;
     }
 
@@ -437,8 +441,8 @@ a:focus {
         font-size: 0.8em;
     }
 
-    #expertise .content-box,
-    #featured-work .content-box {
+    #expertise .container,
+    #featured-work .container {
         max-width: 500px;
     }
 
@@ -508,7 +512,7 @@ a:focus {
         margin-right: 0;
     }
 
-    #big-image .content-box {
+    #big-image .container-fluid {
         padding-top: 120px;
     }
 

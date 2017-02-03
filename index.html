@@ -17,56 +17,69 @@
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">
-                            <img class="logo" alt="Logo" src="./img/logo.png">
-                            <p class="brand">Miaoyun Zhou</p>
-                        </a>
-                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">
+                                    <img class="logo" alt="Logo" src="./img/logo.png">
+                                    <p class="brand">Miaoyun Zhou</p>
+                                </a>
+                            </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#top" class="hidden-xs">Home</a>
-                                <a href="#top" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Home</a>
-                            </li>
-                            <li>
-                                <a href="#expertise" class="hidden-xs">Skills</a>
-                                <a href="#expertise" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Skills</a>
-                            </li>
-                            <li>
-                                <a href="#featured-work" class="hidden-xs">Projects</a>
-                                <a href="#featured-work" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Projects</a>
-                            </li>
-                            <li>
-                                <a href="#contact" class="hidden-xs">Contact</a>
-                                <a href="#contact" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contact</a>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a href="#top" class="hidden-xs">Home</a>
+                                        <a href="#top" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#expertise" class="hidden-xs">Skills</a>
+                                        <a href="#expertise" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Skills</a>
+                                    </li>
+                                    <li>
+                                        <a href="#featured-work" class="hidden-xs">Projects</a>
+                                        <a href="#featured-work" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact" class="hidden-xs">Contact</a>
+                                        <a href="#contact" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contact</a>
+                                    </li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div>
+                    </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
             </nav>
         </header>
+
         <main>
             <section id="big-image">
-                <div class="content-box">
-                    <h1 class="title">Front End Ninja</h1>
-                    <p class="introduction">Hi! my name is Miaoyun Zhou.</p>
-                    <p class="introduction">I am a passionate Front End Web Developer/Designer living in Fort Worth, TX. </p>
-                    <a class="btn btn-big-image" href="#contact">I am available for hire!</a>
-                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="title">Front End Ninja</h1>
+                            <p class="introduction">Hi! my name is Miaoyun Zhou.</p>
+                            <p class="introduction">I am a passionate Front End Web Developer/Designer living in Fort Worth, TX. </p>
+                            <a class="btn btn-big-image" href="#contact">I am available for hire!</a>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
             </section>
 
             <section id="expertise" class="gray-background">
-                <div class="content-box">
-                    <h2 class="subtitle">My Expertise</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="subtitle">My Expertise</h2>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-sm-4 skill">
                             <i class="fa fa-line-chart expertise-icon yellow" aria-hidden="true"></i>
@@ -84,12 +97,17 @@
                             <p class="expertise-description">I love to use coding lauguages to magically transform and realize my plan and desgin into interactive, responsive websites. </p>
                         </div>
                     </div><!-- /.row -->
-                </div><!-- /.content-box -->
+                </div><!-- /.container -->
             </section>
 
             <section id="featured-work">
-                <div class="content-box">
-                    <h2 class="subtitle">Coding Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="subtitle">Coding Projects</h2>
+                        </div>
+                    </div><!-- /.row -->
+
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="card-code">
@@ -135,7 +153,12 @@
                         </div>
                     </div><!-- /.row -->
 
-                    <h2 class="subtitle">Design Projects Sample</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="subtitle">Design Projects Sample</h2>
+                        </div>
+                    </div><!-- /.row -->
+
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="card-design">
@@ -168,11 +191,11 @@
                             </div>
                         </div>
                     </div><!-- /.row -->
-                </div><!-- /.content-box -->
+                </div><!-- /.container -->
             </section>
 
             <section id="contact" class="blue-background">
-                <div class="content-box">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-5 col-sm-12">
                             <div class="contact-card">
@@ -217,20 +240,24 @@
                             </div>
                         </div>
                     </div><!-- /.row -->
-                </div><!-- /.content-box -->
+                </div><!-- /.container -->
             </section>
         </main>
 
         <footer id="footer-info" class="black-background">
-            <div class="content-box flex-box">
-                <ul class="link-group">
-                    <li class="link"><a href="#">Back to Home</a></li>
-                    <li class="link"><a href="https://sunnymary.github.io/online-resume/" target="_blank">view resume</a></li>
-                    <li class="link"><a href="#featured-work">view portfolio</a></li>
-                    <li class="link"><a href="https://github.com/sunnymary" target="_blank">view github</a></li>
-                </ul>
-                <p class="trademark">©2017 Designed and Developed by <span class="trademark-name">Miaoyun Zhou</span></p>
-            </div><!-- /.content-box -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="link-group">
+                            <li class="link"><a href="#">Back to Home</a></li>
+                            <li class="link"><a href="https://sunnymary.github.io/online-resume/" target="_blank">view resume</a></li>
+                            <li class="link"><a href="#featured-work">view portfolio</a></li>
+                            <li class="link"><a href="https://github.com/sunnymary" target="_blank">view github</a></li>
+                        </ul>
+                        <p class="trademark">©2017 Designed and Developed by <span class="trademark-name">Miaoyun Zhou</span></p>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
         </footer>
     </body>
 </html>
