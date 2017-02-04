@@ -469,6 +469,10 @@ a:focus {
 }
 
 @media screen and (max-width: 449px) {
+    nav .container-fluid {
+        padding: 0 20px 0 10px;
+    }
+
     .contact-card {
         height: auto;
     }
