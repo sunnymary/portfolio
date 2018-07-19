@@ -125,18 +125,22 @@ nav .container-fluid {
     display: block;
     text-align: center;
     padding-top: 20px;
+    /* padding-bottom: 20px; */
     height: 80px;
     width: 80px;
-    border-radius: 20px;
+    /* border: 2px solid; */
+    border-radius: 40px;
+    /* border: 10px; */
     margin: 0 auto;
     font-size: 2em;
-    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
-    background-color: white;
+    /* box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2); */
+    /* background-color: white; */
 }
 
 .expertise-name {
     text-align: center;
     font-weight: bold;
+    margin-top: 0;
 }
 
 .expertise-description {
