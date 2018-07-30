@@ -463,10 +463,6 @@ a:focus {
         min-height: 600px;
     }
 
-    .card-long {
-        height: 660px;
-    }
-
     .card-design {
         min-height: 0;
     }
@@ -483,6 +479,10 @@ a:focus {
 @media screen and (max-width: 449px) {
     nav .container-fluid {
         padding: 0 20px 0 10px;
+    }
+
+    .card-long {
+        height: 660px;
     }
 
     .contact-card {
@@ -538,6 +538,10 @@ a:focus {
 
     .introduction {
         font-size: 16px;
+    }
+
+    .card-long {
+        height: 700px;
     }
 }
 
