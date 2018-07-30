@@ -463,6 +463,10 @@ a:focus {
         min-height: 600px;
     }
 
+    .card-long {
+        height: 660px;
+    }
+
     .card-design {
         min-height: 0;
     }
