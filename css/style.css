@@ -160,7 +160,7 @@ nav .container-fluid {
 }
 
 .card-code {
-    min-height: 600px;
+    min-height: 650px;
 }
 
 .card-code:hover {
@@ -459,10 +459,6 @@ a:focus {
         text-align: left;
     }
 
-    .card-code {
-        min-height: 600px;
-    }
-
     .card-design {
         min-height: 0;
     }
@@ -481,8 +477,12 @@ a:focus {
         padding: 0 20px 0 10px;
     }
 
+    .card-code {
+        min-height: 600px;
+    }
+
     .card-long {
-        height: 660px;
+        height: 650px;
     }
 
     .contact-card {
@@ -516,10 +516,6 @@ a:focus {
     .btn-hollow {
         display: block;
         margin-top: 5px;
-    }
-
-    .card-long {
-        height: 680px;
     }
 }
 
